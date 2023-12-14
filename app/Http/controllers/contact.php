@@ -1,7 +1,9 @@
 <?php 
 
+use Core\App;
+
 $heading = "Contacts";
 
-view("contact.view.php", [
+App::view("contact.view.php", [
   "heading" => $heading
 ]);

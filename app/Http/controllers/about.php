@@ -1,7 +1,9 @@
 <?php 
 
+use Core\App;
+
 $heading = "About";
 
-view("about.view.php", [
+App::view("about.view.php", [
   "heading" => $heading
 ]);

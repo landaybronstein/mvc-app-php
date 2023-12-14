@@ -1,0 +1,16 @@
+{
+    "name": "landaybronstein/phpmvc",
+    "description": "MVC App",
+    "authors": [
+        {
+            "name": "Landay Bronstein"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}

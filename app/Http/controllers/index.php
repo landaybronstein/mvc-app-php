@@ -1,9 +1,9 @@
 <?php
 
-$heading = "Home";
-$user = $_SESSION["user"] ?? null;
+use Core\App;
 
-view("index.view.php", [
+$heading = "Home";
+
+App::view("index.view.php", [
   "heading" => $heading,
-  "user" => $user
 ]);
